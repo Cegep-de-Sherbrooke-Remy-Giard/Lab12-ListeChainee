@@ -35,7 +35,7 @@ pop() [ christophe bob ]
 Un nouveau noeud doit être créé et il doit pointer vers le nouvel élément.  Ce nouveau noeud ne devrait pas avoir de suivant puisqu'il est ajouté à la queue.  Donc, la queue de la liste devient le nouveau noeud et le suivant de "l'ancienne" queue doit pointer sur le nouveau noeud.
 
 ### Enlèvement d'un élément
-Le noeud de tête doit être enlevé de la liste et sa valeur retourné.  Ne pas oublier de supprimer l'espace du noeud qui n'est plus utilisé.  À considérer : la liste aura une nouvelle tête.
+Le noeud de tête doit être enlevé de la liste et sa valeur retournée.  Ne pas oublier de supprimer l'espace du noeud qui n'est plus utilisé.  À considérer : la liste aura une nouvelle tête.
 
 ### Taille de la liste
 Il faut itérer à travers les noeuds jusqu'à la fin en incrémentant une variable.
