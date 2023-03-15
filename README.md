@@ -44,8 +44,7 @@ Il faut itérer à travers les noeuds jusqu'à la fin en incrémentant une varia
 Le destructeur doit supprimer tous les noeuds de la liste : seulement les noeuds, pas les valeurs pointées par les noeuds. 
 
 ## Défis supplémentaires si vous en avez envie
-- Ajouter une méthode "queue()" qui permet de retourner le dernier élément de la liste.
-- Ajouter une surcharge d'opérateur [] qui permet de retourner l'élément à la position indiquer entre les [].
+- Ajouter une surcharge d'opérateur [] qui permet de retourner l'élément à la position indiqué entre les [].
 - Permettre l'ajout d'un élément à n'importe quelle position de la liste, tant que l'index ait du sens avec le nombre d'éléments actuel de la liste.  
   - Par exemple `liste.push(3, personnage)` pour ajouter l'instance `personnage` à la position 4 (index 3).  
 - Permettre d'enlever un élément à n'importe quelle position : `liste.supprimer(2)`
