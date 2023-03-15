@@ -22,18 +22,32 @@ Notez que chaque opération qui modifie la liste doit s'assurer que l'intégrit�
 Finalement, un fichier **main.cpp** vous est fourni et contiendra la création d'une liste, de personnages et de l'ajout de ces personnages à la liste.  Voici le rendu quel vous devez obtenir:
 ```
 [ ]
-[ alain christophe bob ]
-
-alain
-[ christophe bob ]
-[ christophe bob bob ]
++alain [ alain ]
++christophe [ alain christophe ]
++bob [ alain christophe bob ]
+pop() [ christophe bob ]
++bob [ christophe bob bob ]
 ```
 
+## Résumé du comportement attendu de chaque méthode
+
+### Ajout d'un élément
+Un nouveau noeud doit être créé et il doit pointer vers le nouvel élément.  Ce nouveau noeud ne devrait pas avoir de suivant puisqu'il est ajouté à la queue.  Donc, la queue de la liste devient le nouveau noeud et le suivant de "l'ancienne" queue doit pointer sur le nouveau noeud.
+
+### Enlèvement d'un élément
+Le noeud de tête doit être enlevé de la liste et sa valeur retourné.  Ne pas oublier de supprimer l'espace du noeud qui n'est plus utilisé.  À considérer : la liste aura une nouvelle tête.
+
+### Taille de la liste
+Il faut itérer à travers les noeuds jusqu'à la fin en incrémentant une variable.
+
+### Destructeur
+Le destructeur doit supprimer tous les noeuds de la liste : seulement les noeuds, pas les valeurs pointées par les noeuds. 
 
 ## Défis supplémentaires si vous en avez envie
 - Ajouter une méthode "queue()" qui permet de retourner le dernier élément de la liste.
 - Ajouter une surcharge d'opérateur [] qui permet de retourner l'élément à la position indiquer entre les [].
 - Permettre l'ajout d'un élément à n'importe quelle position de la liste, tant que l'index ait du sens avec le nombre d'éléments actuel de la liste.  
   - Par exemple `liste.push(3, personnage)` pour ajouter l'instance `personnage` à la position 4 (index 3).  
+- Permettre d'enlever un élément à n'importe quelle position : `liste.supprimer(2)`
   
 Bon laboratoire ! 
