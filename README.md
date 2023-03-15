@@ -26,7 +26,6 @@ Finalement, un fichier **main.cpp** vous est fourni et contiendra la création d
 alain
 [ christophe bob ]
 [ christophe bob bob ]
-
 ```
 
 
