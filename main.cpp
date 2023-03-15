@@ -11,15 +11,23 @@ int main()
 	Liste l;
 	l.afficher();
 
+	cout << "+" << a.getNom() << " ";
 	l.ajouter(a);
+	l.afficher();
+
+	cout << "+" << c.getNom() << " ";
 	l.ajouter(c);
+	l.afficher();
+
+	cout << "+" << b.getNom() << " ";
 	l.ajouter(b);
-
 	l.afficher();
 
-	cout << endl << l.pop() << endl;
+	cout << "pop() ";
+	l.pop();
 	l.afficher();
 
+	cout << "+" << b.getNom() << " ";
 	l.ajouter(b);
 	l.afficher();
 }
