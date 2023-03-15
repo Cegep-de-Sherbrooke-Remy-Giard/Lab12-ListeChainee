@@ -25,8 +25,8 @@ Finalement, un fichier **main.cpp** vous est fourni et contiendra la création d
 +alain [ alain ]
 +christophe [ alain christophe ]
 +bob [ alain christophe bob ]
-pop() [ alain christophe bob ]
-+bob [ alain christophe bob bob ]
+pop() [ christophe bob ]
++bob [ christophe bob bob ]
 ```
 
 ## Résumé du comportement attendu de chaque méthode
