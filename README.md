@@ -8,6 +8,7 @@ Une liste chaînée a le même comportement que la structure de données *Queue*
 - Les éléments sont retirés de la tête de la liste (méthode `pop()`)
 - Il est possible de lire le premier élément de la liste (méthode `tete()`)
 - La liste ne doit pas créer une copie de l'élément ajouté, mais pointer vers celui-ci (pointeur).
+- L'ordre d'ajout des éléments est conservé.
 
 Dans le cadre de ce laboratoire, le fichier .h d'une classe **Liste** avec les méthodes qui doivent être implantées vous est fourni.  La liste pourra contenir des instances de **Personnage** seulement, une classe dont le contenu est fournie.  
 
