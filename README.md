@@ -22,11 +22,11 @@ Notez que chaque opération qui modifie la liste doit s'assurer que l'intégrit�
 Finalement, un fichier **main.cpp** vous est fourni et contiendra la création d'une liste, de personnages et de l'ajout de ces personnages à la liste.  Voici le rendu quel vous devez obtenir:
 ```
 [ ]
-[ alain christophe bob ]
-
-alain
-[ christophe bob ]
-[ christophe bob bob ]
++alain [ alain ]
++christophe [ alain christophe ]
++bob [ alain christophe bob ]
+pop() [ alain christophe bob ]
++bob [ alain christophe bob bob ]
 ```
 
 ## Résumé du comportement attendu de chaque méthode
