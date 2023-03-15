@@ -37,6 +37,9 @@ Un nouveau noeud doit être créé et il doit pointer vers le nouvel élément. 
 ### Enlèvement d'un élément
 Le noeud de tête doit être enlevé de la liste et sa valeur retourné.  Ne pas oublier de supprimer l'espace du noeud qui n'est plus utilisé.  À considérer : la liste aura une nouvelle tête.
 
+### Taille de la liste
+Il faut itérer à travers les noeuds jusqu'à la fin en incrémentant une variable.
+
 ### Destructeur
 Le destructeur doit supprimer tous les noeuds de la liste : seulement les noeuds, pas les valeurs pointées par les noeuds. 
 
