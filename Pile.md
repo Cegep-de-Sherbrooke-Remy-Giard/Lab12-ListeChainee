@@ -5,7 +5,7 @@ Veuillez créer une classe `Pile` qui implémentera une structure de données de
 
 - Constructeur
 - Constructeur de copie
-- `boolean empty()` : indique si la pile est vide 
+- `bool empty()` : indique si la pile est vide 
 - `int size()` : retourne le nombre d'éléments dans la pile
 - `std::string top()` : retourne le string au sommet de la pile
 - `void push(std::string p)` : ajoute un string au sommet de la pile
