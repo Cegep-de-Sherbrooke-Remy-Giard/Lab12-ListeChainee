@@ -9,5 +9,5 @@ Veuillez créer une classe `Pile` qui implémentera une structure de données de
 - `void push(Personnage& p)` : ajoute une personnage au sommet de la pile
 - `Personnage& pop()` : enlève le Personnage sur le sommet de la pile
 
-** Test
+## Test
 Pour tester votre implémentation, veuillez utiliser votre `Pile` avec votre travail du lab 11 dans la partie 2 (Fureteur) et vérifier que vous avez le résultat attendu.  
